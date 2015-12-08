@@ -7,6 +7,8 @@ cache:
     - $HOME/.cache/pip
 install:
     - pip install tox
+    
+build_image: drydock/u14pytpls:prod
 
 env:
   matrix:
