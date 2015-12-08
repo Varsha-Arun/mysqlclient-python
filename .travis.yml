@@ -33,3 +33,4 @@ script: tox -e $TOX_ENV
 notifications:
   email:
     varsha@shippable.com
+  irc: "chat.freenode.net#test-irc"
