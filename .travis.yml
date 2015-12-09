@@ -24,7 +24,7 @@ env:
 before_script:
     - "mysql --help"
     - "mysql --print-defaults"
-    - "mysql -e 'create database mysqldb_test charset utf8mb4;'"
+   # - "mysql -e 'create database mysqldb_test charset utf8mb4;'"
 
 script: tox -e $TOX_ENV
 
